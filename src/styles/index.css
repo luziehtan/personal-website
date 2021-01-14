@@ -23,7 +23,8 @@ h2 {
 }
 
 nav {
-    display: block;
+    display: flex;
+    justify-content: space-around;
     background: lavender;
     border-radius: 0 0 20px 20px;
     align-items: stretch;
@@ -50,7 +51,7 @@ figcaption {
     text-align: center;
 }
 
-.img {
+img {
     display: block;
     width: auto;
     height: auto;
