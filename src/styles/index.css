@@ -42,4 +42,12 @@ button {
 
 figcaption {
     font-size: 50%;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 40%;
+    height: 40%;
+    margin-left: 100px;
 }
