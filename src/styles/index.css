@@ -35,8 +35,9 @@ a {
     color: darkorchid;
 }
 
-input, button {
-    font-size: 1em;
+button {
+    font-size: 0.7em;
+    color: darkorchid;
 }
 
 figcaption {
