@@ -1,63 +1,64 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.4;
-    font-size: 112.5%;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.4;
+  font-size: 112.5%;
 }
 
 header {
-    background-color: lightsteelblue;
-    border-radius: 20px;
-    margin: 10px 20px;
-    text-align: center;
+  background-color: lightsteelblue;
+  border-radius: 20px;
+  margin: 10px 20px;
+  text-align: center;
 }
 
 h1 {
-    display: inline-block;
-    font-weight: 100;
+  display: inline-block;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 100;
 }
 
 h2 {
-    font-weight: 900;
-    text-align: center;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    background: lightskyblue;
-    border-radius: 0 0 20px 20px;
-    align-items: stretch;
+  display: flex;
+  justify-content: space-around;
+  background: lightskyblue;
+  border-radius: 0 0 20px 20px;
+  align-items: stretch;
 }
 
 a {
-    text-decoration: none;
-    font-size: 80%;
-    border-bottom: 1px dotted;
-    color: navy;
+  text-decoration: none;
+  font-size: 80%;
+  border-bottom: 1px dotted;
+  color: navy;
 }
 
 button {
-    display: flex-wrap;
-    align-content: space-around;
-    max-width: 100%;
-    margin: auto;
-    font-size: 0.7em;
-    color: navy;
+  display: flex-wrap;
+  align-content: space-around;
+  max-width: 100%;
+  margin: auto;
+  font-size: 0.7em;
+  color: navy;
 }
 
 figcaption {
-    font-size: 50%;
-    text-align: center;
+  font-size: 50%;
+  text-align: center;
 }
 
 img {
-    display: block;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    align-items: center;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  align-items: center;
 }
