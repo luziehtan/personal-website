@@ -63,6 +63,10 @@ img {
   align-items: center;
 }
 
+li {
+  list-style-type: none;
+}
+
 .column {
   display: flex;
   justify-content: space-evenly;
@@ -70,4 +74,18 @@ img {
   max-width: 225px;
   padding: 5px;
   margin: auto;
+}
+
+.bio {
+  background: lightsteelblue;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.cv {
+  background: lightsteelblue;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
 }
