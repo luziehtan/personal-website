@@ -28,7 +28,7 @@ h2 {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background: lightskyblue;
   border-radius: 0 0 20px 20px;
   align-items: stretch;
@@ -42,10 +42,6 @@ a {
 }
 
 button {
-  display: flex-wrap;
-  align-content: space-around;
-  max-width: 100%;
-  margin: auto;
   font-size: 0.7em;
   color: navy;
 }
@@ -57,10 +53,11 @@ figcaption {
 
 img {
   display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 50%;
+  max-width: 80%;
 }
 
 li {
@@ -74,6 +71,25 @@ li {
   max-width: 225px;
   padding: 5px;
   margin: auto;
+  background: lightsteelblue;
+  border-radius: 15px;
+}
+
+.interests {
+  display: flex-wrap;
+  justify-content: space-around;
+  max-width: 100%;
+  background: lightsteelblue;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.contact {
+  background: lightsteelblue;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
 }
 
 .bio {
