@@ -3,7 +3,8 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
   line-height: 1.4;
   font-size: 112.5%;
 }
@@ -41,11 +42,6 @@ a {
   color: navy;
 }
 
-button {
-  font-size: 0.7em;
-  color: navy;
-}
-
 figcaption {
   font-size: 70%;
   text-align: center;
@@ -66,7 +62,7 @@ li {
 
 .column {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   max-width: 225px;
   padding: 5px;
@@ -76,13 +72,24 @@ li {
 }
 
 .interests {
-  display: flex-wrap;
-  justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
   max-width: 100%;
   background: lightsteelblue;
   border-radius: 15px;
   margin: 15px;
   padding: 15px;
+  gap: 5px 5px;
+}
+
+.interestbuttons {
+  display: flex-wrap;
+  justify-content: space-evenly;
+  background: lightskyblue;
+  border-radius: 15px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 80%;
 }
 
 .contact {
