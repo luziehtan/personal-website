@@ -64,11 +64,22 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 225px;
   padding: 5px;
   margin: auto;
   background: lightsteelblue;
   border-radius: 15px;
+}
+
+.icon-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.icon-link {
+  border-bottom: none;
+  padding: 8px;
+  mix-blend-mode: multiply;
 }
 
 .interests {
