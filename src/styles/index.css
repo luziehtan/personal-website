@@ -7,11 +7,13 @@ body {
   font-weight: 100;
   line-height: 1.4;
   font-size: 112.5%;
+  background-color: #fafafa;
 }
 
 header {
   background-color: lightsteelblue;
   border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   margin: 10px 20px;
   text-align: center;
 }
@@ -38,7 +40,6 @@ nav {
 a {
   text-decoration: none;
   font-size: 80%;
-  border-bottom: 1px dotted;
   color: navy;
 }
 
@@ -54,6 +55,7 @@ img {
   width: 100%;
   border-radius: 50%;
   max-width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 li {
@@ -68,12 +70,14 @@ li {
   margin: auto;
   background: lightsteelblue;
   border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .icon-img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .icon-link {
@@ -89,6 +93,7 @@ li {
   max-width: 100%;
   background: lightsteelblue;
   border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   margin: 15px;
   padding: 15px;
   gap: 5px 5px;
@@ -99,6 +104,7 @@ li {
   justify-content: space-evenly;
   background: lightskyblue;
   border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   font-family: 'Nunito', sans-serif;
   font-size: 80%;
 }
@@ -106,6 +112,7 @@ li {
 .contact {
   background: lightsteelblue;
   border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   margin: 15px;
   padding: 15px;
 }
@@ -113,6 +120,7 @@ li {
 .bio {
   background: lightsteelblue;
   border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   margin: 15px;
   padding: 15px;
 }
@@ -120,6 +128,7 @@ li {
 .cv {
   background: lightsteelblue;
   border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   margin: 15px;
   padding: 15px;
 }
