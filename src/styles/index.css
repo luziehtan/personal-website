@@ -51,7 +51,7 @@ button {
 }
 
 figcaption {
-  font-size: 50%;
+  font-size: 70%;
   text-align: center;
 }
 
@@ -61,4 +61,13 @@ img {
   height: auto;
   max-width: 100%;
   align-items: center;
+}
+
+.column {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 225px;
+  padding: 5px;
+  margin: auto;
 }
