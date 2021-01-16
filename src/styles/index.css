@@ -10,6 +10,12 @@ body {
   background-color: #fafafa;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 header {
   background-color: lightsteelblue;
   border-radius: 20px;
