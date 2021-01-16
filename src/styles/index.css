@@ -71,6 +71,7 @@ img {
   background: rgb(218, 218, 151);
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
   width: 100%;
   border-radius: 50%;
   max-width: 80%;
