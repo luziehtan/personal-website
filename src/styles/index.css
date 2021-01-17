@@ -59,7 +59,7 @@ main {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
+    grid-gap: 2em;
   }
 }
 
@@ -121,7 +121,7 @@ li {
 
 @media (min-width: 600px) {
   .interests {
-    width: 100%;
+    width: 60%;
   }
 
   .b {
@@ -274,4 +274,6 @@ li {
 .footer {
   font-size: 60%;
   text-align: center;
+  padding: 20px;
+  margin: 20px;
 }
