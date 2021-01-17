@@ -10,38 +10,19 @@ body {
   background-color: #fafafa;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-@media (min-width: 600px) {
-  main {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    grid-gap: 1em;
-  }
-}
-
 header {
   background-color: lightsteelblue;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   margin: 10px 20px;
   text-align: center;
+  grid-column: 1/2;
 }
 
 h1 {
   display: inline-block;
   font-family: 'Fredoka One', cursive;
   font-weight: 100;
-}
-
-h2 {
-  font-family: 'Fredoka One', cursive;
-  text-align: center;
 }
 
 nav {
@@ -66,9 +47,28 @@ a {
   color: navy;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+  }
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+
 img {
   display: block;
-  background: rgb(218, 218, 151);
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
@@ -98,6 +98,69 @@ li {
   .pictext {
     font-size: 100%;
   }
+}
+
+.interests {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-self: center;
+  max-width: 100%;
+  background: lightsteelblue;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  margin: auto;
+  padding: 15px;
+  gap: 5px 5px;
+}
+
+@media (min-width: 600px) {
+  .interests {
+    width: 70%;
+    grid-column: 2;
+  }
+}
+
+.interestbuttons {
+  display: flex-wrap;
+  justify-content: space-evenly;
+  background: lightskyblue;
+  border-radius: 15px;
+  padding: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Nunito', sans-serif;
+  font-size: 80%;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin: auto;
+  background: lightsteelblue;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 600px) {
+  .contact {
+    width: 30%;
+    grid-column: 1;
+  }
+}
+
+.contactlink {
+  border-bottom: none;
+  padding: 8px;
+}
+
+.contactbutton {
+  display: block;
+  width: 30%;
+  height: auto;
+  mix-blend-mode: multiply;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .column {
@@ -130,76 +193,6 @@ li {
   mix-blend-mode: multiply;
 }
 
-.interests {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-self: center;
-  max-width: 100%;
-  background: lightsteelblue;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-  margin: auto;
-  padding: 15px;
-  gap: 5px 5px;
-}
-
-@media (min-width: 600px) {
-  .interests {
-    width: 70%;
-  }
-}
-
-.interestbuttons {
-  display: flex-wrap;
-  justify-content: space-evenly;
-  background: lightskyblue;
-  border-radius: 15px;
-  padding: 3px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  font-family: 'Nunito', sans-serif;
-  font-size: 80%;
-}
-
-.contact {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 5px;
-  margin: auto;
-  background: lightsteelblue;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-}
-
-@media (min-width: 600px) {
-  .contact {
-    width: 30%;
-  }
-}
-
-.contactlink {
-  border-bottom: none;
-  padding: 8px;
-}
-
-.contactbutton {
-  display: block;
-  width: 30%;
-  height: auto;
-  mix-blend-mode: multiply;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-}
-
-@media (min-width: 600px) {
-  .nested {
-    display: grid;
-    grid-template-columns: repeat(50% 50%);
-    grid-auto-rows: minmax(100px, auto);
-    grid-template-rows: repeat(50% 50%);
-  }
-}
-
 .bio {
   background: lightsteelblue;
   border-radius: 15px;
@@ -212,6 +205,7 @@ li {
 
 @media (min-width: 600px) {
   .bio {
+    display: grid;
     width: 70%;
     font-size: 100%;
   }
@@ -228,6 +222,7 @@ li {
 
 @media (min-width: 600px) {
   .cv {
+    display: grid;
     width: 70%;
     font-size: 100%;
   }
