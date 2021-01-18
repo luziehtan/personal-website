@@ -3,14 +3,6 @@
 @import 'components/page-header.css';
 @import '_main-layout.css';
 
-@media (min-width: 600px) {
-  nav {
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 20px;
-  }
-}
-
 .cv {
   background: #ccc3cc;
   border-radius: 5px;

@@ -35,12 +35,10 @@ img {
 .interests {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-self: center;
-  max-width: 100%;
   background: #ccc3cc;
   border-radius: 5px;
-  margin: auto;
   padding: 15px;
   gap: 5px 5px;
 }
@@ -73,7 +71,12 @@ img {
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 3;
-  justify-content: space-evenly;
+}
+
+@media (min-width: 600px) {
+  .main-layout__d {
+    margin-top: 100px;
+  }
 }
 
 .main-layout__e {
@@ -108,9 +111,9 @@ img {
   border-radius: 5px;
 }
 
-.column {
+.contactbox {
   display: flex;
-  padding: 5px;
+  flex-flow: row-reverse;
   background: #ccc3cc;
   border-radius: 5px;
 }
@@ -135,16 +138,18 @@ img {
 }
 
 .bio {
-  border-radius: 15px;
-  margin: auto;
-  padding: 15px;
-  text-align: justify;
   font-size: 80%;
+  text-align: justify;
+  margin: 10px;
+  padding: 10px;
+  border: #000 2px dotted;
 }
 
 @media (min-width: 600px) {
   .bio {
-    width: 100%;
+    margin: 0 50px 0 50px;
     font-size: 100%;
+    padding: 20px;
+    border: #000 2px dotted;
   }
 }
