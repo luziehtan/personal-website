@@ -1,3 +1,37 @@
+a {
+  text-decoration: none;
+  font-size: 80%;
+  color: #2d282d;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
 .mb-40 {
   margin-bottom: 40px;
+}
+
+.pictext {
+  font-size: 70%;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+@media (min-width: 600px) {
+  .pictext {
+    font-size: 100%;
+  }
+}
+
+.cvtext {
+  font-size: 50%;
 }
