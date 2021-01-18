@@ -108,19 +108,6 @@ img {
   border-radius: 5px;
 }
 
-.contactlink {
-  border-bottom: none;
-  padding: 8px;
-}
-
-.contactbutton {
-  display: block;
-  width: 30%;
-  height: auto;
-  mix-blend-mode: multiply;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-}
-
 .column {
   display: flex;
   padding: 5px;
@@ -137,8 +124,14 @@ img {
 
 .icon-link {
   border-bottom: none;
-  padding: 8px;
+  margin-bottom: 10px;
   mix-blend-mode: multiply;
+}
+
+@media (min-width: 600px) {
+  .icon-link {
+    margin-bottom: 15px;
+  }
 }
 
 .bio {
