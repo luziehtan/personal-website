@@ -250,9 +250,11 @@ li {
 }
 
 .cv {
-  border-radius: 15px;
-  margin: auto;
-  padding: 15px;
+  background: #ccc3cc;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
   font-size: 80%;
 }
 
