@@ -10,25 +10,29 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>Luciana Blümlein</h1>
-      <nav class="navi">
+    <header class="page-header mb-40">
+      <h1 class="page-header__heading">Luciana Blümlein</h1>
+      <nav class="page-header__nav">
         <a href="#contact">Contact</a>
         <a href="#bio">Biography</a>
         <a href="#cv">CV</a>
       </nav>
     </header>
-    <main class="main">
-      <section><img src="./lbluemlein.jpg" alt="" />
+    <main class="main-layout">
+      <section>
+        <img src="./lbluemlein.jpg" alt="" />
         <p class="pictext" aria-hidden="true">
           Moin! I'm Luciana - nice to meet you!
         </p>
       </section>
-      <section class="b">
+      <section class="main-layout__b">
         <h2>Interests</h2>
         <ul class="interests">
           <li class="interestbuttons">Coding</li>
@@ -43,13 +47,20 @@
           <li class="interestbuttons">Photography</li>
           <li class="interestbuttons">Music</li>
           <li class="interestbuttons">Fashion</li>
-        </div>
+        </ul>
       </section>
       <section class="c">
         <h2 id="contact">Contact</h2>
         <div class="contact">
-          <address><a class="contactlink" href="tel:004915257953052"><img class="contactbutton" src="./phone.jpg" alt="Call"></a></address>
-          <address><a class="contactlink" href="mailto:luziehtan@hotmail.com"><img class="contactbutton" src="./email.png" alt="Mail"></a>
+          <address>
+            <a class="contactlink" href="tel:004915257953052"
+              ><img class="contactbutton" src="./phone.jpg" alt="Call"
+            /></a>
+          </address>
+          <address>
+            <a class="contactlink" href="mailto:luziehtan@hotmail.com"
+              ><img class="contactbutton" src="./email.png" alt="Mail"
+            /></a>
           </address>
         </div>
       </section>
@@ -57,78 +68,120 @@
         <h2>Find me on:</h2>
         <div class="column">
           <a class="icon-link" href="https://github.com/luziehtan"
-            ><img class="icon-img"
+            ><img
+              class="icon-img"
               src="./github.png"
               width="225"
               height="225"
               alt="GitHub"
           /></a>
           <a class="icon-link" href="https://codepen.io/luziehtan"
-            ><img class="icon-img"
+            ><img
+              class="icon-img"
               src="./codepen.png"
               width="225"
               height="225"
               alt="Codepen"
           /></a>
-          <a class="icon-link" href="https://www.xing.com/profile/Luciana_Bluemlein"
-            ><img class="icon-img"
-            src="./xing.png" 
-            width="225" 
-            height="225" 
-            alt="Xing"
+          <a
+            class="icon-link"
+            href="https://www.xing.com/profile/Luciana_Bluemlein"
+            ><img
+              class="icon-img"
+              src="./xing.png"
+              width="225"
+              height="225"
+              alt="Xing"
           /></a>
           <a class="icon-link" href="https://instagram.com/luziehtan"
-            ><img class="icon-img"
+            ><img
+              class="icon-img"
               src="./instagram.png"
               width="225"
               height="225"
               alt="Instagram"
           /></a>
-      </div>
+        </div>
       </section>
       <section class="e">
         <h2 id="bio">Biography</h2>
         <div class="bio">
           <p>
-          I was born in February 1990 in Erlangen and ever since have preferred the unconventional way.
-          That's why I chose a humanistic high school and learned Latin and Ancient Greek, or why I went for a career as a blogger for more than 10 years.<br>
-          I moved to Hamburg in 2014 and did many different kinds of jobs but deep in my heart, I always knew I need to do something creative.</p>
-          <p>In 7th grade, I took part of an elective course in IT and that's when I first fell in love with coding - but it took me 18 more years to actually choose this way.</p>
-          <p>As a kid, I created my first websites on Beepworld, and as a teenager, I used Blogspot to create a few blogs, before heading into the fun world of Wordpress and self-hosting.</p>
-          <p>In 2020, I finally decided to become a Web Developer and am currently attending a remote bootcamp with neue fische, so I can start my new path
-          and be a successful Frontend Developer.
-        </p>
+            I was born in February 1990 in Erlangen and ever since have
+            preferred the unconventional way. That's why I chose a humanistic
+            high school and learned Latin and Ancient Greek, or why I went for a
+            career as a blogger for more than 10 years.<br />
+            I moved to Hamburg in 2014 and did many different kinds of jobs but
+            deep in my heart, I always knew I need to do something creative.
+          </p>
+          <p>
+            In 7th grade, I took part of an elective course in IT and that's
+            when I first fell in love with coding - but it took me 18 more years
+            to actually choose this way.
+          </p>
+          <p>
+            As a kid, I created my first websites on Beepworld, and as a
+            teenager, I used Blogspot to create a few blogs, before heading into
+            the fun world of Wordpress and self-hosting.
+          </p>
+          <p>
+            In 2020, I finally decided to become a Web Developer and am
+            currently attending a remote bootcamp with neue fische, so I can
+            start my new path and be a successful Frontend Developer.
+          </p>
         </div>
       </section>
       <section class="f">
         <h2 id="cv">CV</h2>
-          <details>
+        <details>
           <summary class="cv">Jan 2009 - today: <em>Lu zieht an.</em></summary>
           <p>Founder and Blogger</p>
-          <p>Independent production of high-end photography and text content, social media management (Instagram, Facebook, Twitter), collaboration with brands like Marina Rinaldi, Dior Beauty, The George Hotel Hamburg etc. within the field of fashion, beauty and lifestyle</p></details>
-          <details>
-          <summary class="cv">Jan 2019 - Dec 2021: <em>FOCUS Diabetes</em></summary>
+          <p>
+            Independent production of high-end photography and text content,
+            social media management (Instagram, Facebook, Twitter),
+            collaboration with brands like Marina Rinaldi, Dior Beauty, The
+            George Hotel Hamburg etc. within the field of fashion, beauty and
+            lifestyle
+          </p>
+        </details>
+        <details>
+          <summary class="cv">
+            Jan 2019 - Dec 2021: <em>FOCUS Diabetes</em>
+          </summary>
           <p>Freelance columnist, twice per year</p>
-          <p>Magazine discontinued (Dec 2021)</p></details>
-          <details>
+          <p>Magazine discontinued (Dec 2021)</p>
+        </details>
+        <details>
           <summary class="cv">Aug 2019 - Mar 2020: <em>Fielmann</em></summary>
           <p>Expert advisor, eye care</p>
-          <p>Customer-oriented consultation for frames and lenses, digital eye test, eye test for driver's licenses, cashier, reception</p></details>
-          <details>
-          <summary class="cv">Feb 2019 - Apr 2019: <em>Clever Shuttle</em></summary>
+          <p>
+            Customer-oriented consultation for frames and lenses, digital eye
+            test, eye test for driver's licenses, cashier, reception
+          </p>
+        </details>
+        <details>
+          <summary class="cv">
+            Feb 2019 - Apr 2019: <em>Clever Shuttle</em>
+          </summary>
           <p>Driver</p>
-          <p>Night-shift service driver through Hamburg</p></details>
-          <details>
-          <summary class="cv">Oct 2018 - Jul 2019: <em>Kurvenhaus Hamburg</em></summary>
+          <p>Night-shift service driver through Hamburg</p>
+        </details>
+        <details>
+          <summary class="cv">
+            Oct 2018 - Jul 2019: <em>Kurvenhaus Hamburg</em>
+          </summary>
           <p>Assistant</p>
-          <p>Consultation and sales of fashion and accessories, cashier, support for social media, model</p></details>
-          <details>
+          <p>
+            Consultation and sales of fashion and accessories, cashier, support
+            for social media, model
+          </p>
+        </details>
+        <details>
           <summary class="cv">2010: <em>Make-up Artist</em></summary>
           <p>Freelancer</p>
         </details>
       </section>
     </main>
     <footer class="footer">Copyright © 2021 - Luciana Blümlein</footer>
-  </div>
   </body>
 </html>
