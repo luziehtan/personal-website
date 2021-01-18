@@ -1,0 +1,24 @@
+.page-header {
+  background-color: #998899;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+  grid-area: h;
+}
+
+.page-header__heading {
+  display: inline-block;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 100;
+}
+
+.page-header__nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: #7a6c7a;
+  border-radius: 0 0 5px 5px;
+  align-items: stretch;
+  font-size: 120%;
+  grid-area: n;
+}
